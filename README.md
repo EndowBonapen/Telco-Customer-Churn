@@ -8,7 +8,7 @@
 - **Presentation Deck** : [View](www.hahahahah) <br> <br>
 
 **Table Of Contents**
-- [Business Understanding](https://github.com/EndowBonapn/Telco-Customer-Churn/blob/main/README.md#-business-understanding)
+- [Business Understanding](https://github.com/EndowBonapen/Telco-Customer-Churn/blob/main/README.md#-business-understanding)
 - [Workflow](www.hahahaha)
 - [Insight](wwww.hahahah)
 - [Data Understanding](www.hahaha)
