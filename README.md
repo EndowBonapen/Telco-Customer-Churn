@@ -9,13 +9,13 @@
 
 **Table Of Contents**
 - [Business Understanding](https://github.com/EndowBonapen/Telco-Customer-Churn/blob/main/README.md#-business-understanding)
-- [Workflow](www.hahahaha)
-- [Insight](wwww.hahahah)
-- [Data Understanding](www.hahaha)
-- [Exploratory Data Analysis (EDA)](www.hahahaha)
-- [Data Preprocessing](www.hahahah)
-- [Modeling and Evaluation](www.hahahahah)
-- [Business Recomendation](www.hahahaha)
+- [Workflow](https://github.com/EndowBonapen/Telco-Customer-Churn/blob/main/README.md#-workflow)
+- [Insight](https://github.com/EndowBonapen/Telco-Customer-Churn/blob/main/README.md#-insight)
+- [Data Understanding](https://github.com/EndowBonapen/Telco-Customer-Churn/blob/main/README.md#-data-understanding)
+- [Exploratory Data Analysis (EDA)](https://github.com/EndowBonapen/Telco-Customer-Churn/blob/main/README.md#-exploratory-data-analysis-(EDA))
+- [Data Preprocessing](https://github.com/EndowBonapen/Telco-Customer-Churn/blob/main/README.md#-data-preprocessing)
+- [Modeling and Evaluation](https://github.com/EndowBonapen/Telco-Customer-Churn/blob/main/README.md#-modeling-and-evaluation)
+- [Business Recomendation](https://github.com/EndowBonapen/Telco-Customer-Churn/blob/main/README.md#-business-recomendation)
 <br>
 
 ## 📂 Business Understanding
