@@ -56,7 +56,7 @@ Deep Neural Network (DNN) adalah model komputasi yang terinspirasi dari struktur
 
 ## 📂 Workflow
 <p align="center">
-    <kbd> <img width="1000" alt="workflow" src="https://github.com/faizns/HCI-vix-project/assets/115857221/8d64b89f-f0d0-4276-9a51-82a1adb0c9a8.jpg"> </kbd> <br>
+    <kbd> <img width="1000" alt="workflow" src="https://drive.google.com/file/d/1kFyclaZkIEnsbc00FjDNjrLXY_7L3O__/view?usp=sharing"> </kbd> <br>
     Gambar 1 — Workflow Pembuatan Model
 </p>
 <br>
