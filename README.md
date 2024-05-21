@@ -86,7 +86,7 @@ Total Intl Charge | Total charge dalam International Call
 Number Customer Service Call | Total panggilan kepada Customer Service
 ## 📂 Exploratory Data Analysis
 Exploratory Data Analysis (EDA) adalah proses investigasi awal yang dilakukan pada dataset untuk memahami dan menganalisis karakteristik utama dalam dataset. Tujuan dari EDA adalah untuk mengidentifikasi pola, hubungan, anomali, dan informasi penting lainnya dalam dataset tanpa membuat asumsi atau hipotesis terlebih dahulu. Metode yang umum digunakan dalam EDA meliputi visualisasi data, statistik deskriptif, dan teknik analisis lainnya untuk mendapatkan pemahaman yang mendalam tentang data sebelum melakukan analisis lebih lanjut atau membangun model prediktif. <br>
-### Churning Ratio
+### 1. Churning Ratio
 Rata-rata persentase customer churn pada perusahaan telco berkisar antara **21-22%** dan besar customer churn pada perusahaan ini berada pada angka **14%** sehingga masih tergolong **normal**, dapat dilihat pada gambar dibawah ini:
 <div align="center">
   <img src="https://drive.google.com/uc?id=1NTiti4vBLnJSpkC77mQqgCs-ngyjjjYJ" alt="Workflow">
@@ -94,7 +94,7 @@ Rata-rata persentase customer churn pada perusahaan telco berkisar antara **21-2
 </div>
 
 
-### Univariative Analysis
+### 2. Univariative Analysis
 Univariate Analysis adalah sebuah metode analisis statistik yang digunakan untuk memahami karakteristik dari satu variabel tunggal dalam suatu dataset. Tujuan utama dari analisis univariat adalah untuk merangkum dan menyajikan data, serta mendapatkan wawasan yang lebih dalam tentang distribusi, pola, dan sifat-sifat statistik dari variabel.
 ### Distribution of Data
 <div align="center">
@@ -107,7 +107,8 @@ Univariate Analysis adalah sebuah metode analisis statistik yang digunakan untuk
 1. Mayoritas keseluruhan data terdistribusi normal.
 2. Fitur **number_vmail_massages**, **total_intl_calls** dan **number_customer_sevice_calls** memiliki distribusi positively skewed yang dapat dilihat dengan ciri yaitu pada nilai **Mean** (rata-rata) lebih besar daripada nilai **Median** dan Nilai **Median** lebih besar daripada Nilai **Modus**.
 
-### Bivariative Analysis
+### 3. Bivariative Analysis
+### 4. Multivariative Analysis
 
 
 
