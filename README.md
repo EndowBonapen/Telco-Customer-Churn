@@ -10,7 +10,6 @@
 **Table Of Contents**
 - [Business Understanding](https://github.com/EndowBonapen/Telco-Customer-Churn/blob/main/README.md#-business-understanding)
 - [Workflow](https://github.com/EndowBonapen/Telco-Customer-Churn/blob/main/README.md#-workflow)
-- [Insight](https://github.com/EndowBonapen/Telco-Customer-Churn/blob/main/README.md#-insight)
 - [Data Understanding](https://github.com/EndowBonapen/Telco-Customer-Churn/blob/main/README.md#-data-understanding)
 - [Exploratory Data Analysis (EDA)](https://github.com/EndowBonapen/Telco-Customer-Churn/blob/main/README.md#-exploratory-data-analysis-(EDA))
 - [Data Preprocessing](https://github.com/EndowBonapen/Telco-Customer-Churn/blob/main/README.md#-data-preprocessing)
@@ -55,8 +54,60 @@ Deep Neural Network (DNN) adalah model komputasi yang terinspirasi dari struktur
 4. **Model Evaluation** : Mengevaluasi kinerja model prediktif menggunakan metrik yang tepat diikuti dengan validasi model. <br>
 
 ## 📂 Workflow
-<p align="center">
-    <kbd> <img width="1000" alt="workflow" src="https://drive.google.com/file/d/1kFyclaZkIEnsbc00FjDNjrLXY_7L3O__/view?usp=sharing"> </kbd> <br>
-    Gambar 1 — Workflow Pembuatan Model
-</p>
-<br>
+<div align="center">
+  <img src="https://drive.google.com/uc?id=10SLhtfi_1n_uqQa-dfIgsgFXTRl-zr6m" alt="Workflow">
+  <p>Gambar 1. Workflow Pembuatan Model.</p>
+</div> 
+
+## 📂 Data Understanding
+### Data Overview
+Dataset memiliki total data 4250 record dengan 20 fitur yaitu (5 fitur kategorikal dan 15 fitur numerical) <br>
+Tabel 1 — Deskripsi Fitur
+Fitur | Deskripsi
+------|----------
+State | Status tempat tinggal utama Customer
+Account Length | Total bulan Customer aktif berlangganan pelayanan telco provider
+Area Code | Kode Area tempat tinggal Customer
+International Plan | Customer Berlangganan Paket International Plan 
+Voice Mail Plan | Customer Berlangganan Paket Voice Mail Plan 
+Number Vmail Messages | Total pesan Voice Mail
+Total Day Minutes | Total panggilan dalam satu hari per menit
+Tota Day Calls | Total panggilan dalam satu hari
+Total Day Charge | Total charge dalam panggilan perhari
+Total Eve Minutes | Total panggilan di waktu sore hari per menit
+Tota Eve Calls | Total panggilan dalam waktu sore hari
+Total Eve Charge | Total charge dalam panggilan sore hari
+Total Night Minutes | Total panggilan di waktu malam hari per menit
+Tota Night Calls | Total panggilan dalam waktu malam hari
+Total Night Charge | Total charge dalam panggilan malam hari
+Total Intl Minutes | Total International Call per menit
+Tota Intl Calls | Total International Call
+Total Intl Charge | Total charge dalam International Call
+Number Customer Service Call | Total panggilan kepada Customer Service
+## 📂 Exploratory Data Analysis
+Exploratory Data Analysis (EDA) adalah proses investigasi awal yang dilakukan pada dataset untuk memahami dan menganalisis karakteristik utama dalam dataset. Tujuan dari EDA adalah untuk mengidentifikasi pola, hubungan, anomali, dan informasi penting lainnya dalam dataset tanpa membuat asumsi atau hipotesis terlebih dahulu. Metode yang umum digunakan dalam EDA meliputi visualisasi data, statistik deskriptif, dan teknik analisis lainnya untuk mendapatkan pemahaman yang mendalam tentang data sebelum melakukan analisis lebih lanjut atau membangun model prediktif. <br>
+### Churning Ratio
+Rata-rata persentase customer churn pada perusahaan telco berkisar antara **21-22%** dan besar customer churn pada perusahaan ini berada pada angka **14%** sehingga masih tergolong **normal**, dapat dilihat pada gambar dibawah ini:
+<div align="center">
+  <img src="https://drive.google.com/uc?id=1NTiti4vBLnJSpkC77mQqgCs-ngyjjjYJ" alt="Workflow">
+  <p>Gambar 2. Churning Ratio.</p>
+</div>
+
+
+### Univariative Analysis
+Univariate Analysis adalah sebuah metode analisis statistik yang digunakan untuk memahami karakteristik dari satu variabel tunggal dalam suatu dataset. Tujuan utama dari analisis univariat adalah untuk merangkum dan menyajikan data, serta mendapatkan wawasan yang lebih dalam tentang distribusi, pola, dan sifat-sifat statistik dari variabel.
+### Distribution of Data
+<div align="center">
+  <img src="https://drive.google.com/uc?id=1s1-10YibFLJ6jXw7t-NeJqKLr7wtjUOW" alt="Workflow">
+  <p>Gambar 3. Distribusi Data.</p>
+</div>
+
+
+**Key Takeaways:**
+1. Mayoritas keseluruhan data terdistribusi normal.
+2. Fitur **number_vmail_massages**, **total_intl_calls** dan **number_customer_sevice_calls** memiliki distribusi positively skewed yang dapat dilihat dengan ciri yaitu pada nilai **Mean** (rata-rata) lebih besar daripada nilai **Median** dan Nilai **Median** lebih besar daripada Nilai **Modus**.
+
+### Bivariative Analysis
+
+
+
