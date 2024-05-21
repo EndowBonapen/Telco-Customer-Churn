@@ -71,17 +71,17 @@ Area Code | Kode Area tempat tinggal Customer
 International Plan | Customer Berlangganan Paket International Plan 
 Voice Mail Plan | Customer Berlangganan Paket Voice Mail Plan 
 Number Vmail Messages | Total pesan Voice Mail
-Total Day Minutes | Total panggilan dalam satu hari per menit
-Tota Day Calls | Total panggilan dalam satu hari
-Total Day Charge | Total charge dalam panggilan perhari
+Total Day Minutes | Total panggilan dalam siang hari per menit
+Total Day Calls | Total panggilan dalam siang hari
+Total Day Charge | Total charge dalam panggilan siang hari
 Total Eve Minutes | Total panggilan di waktu sore hari per menit
-Tota Eve Calls | Total panggilan dalam waktu sore hari
+Total Eve Calls | Total panggilan dalam waktu sore hari
 Total Eve Charge | Total charge dalam panggilan sore hari
 Total Night Minutes | Total panggilan di waktu malam hari per menit
-Tota Night Calls | Total panggilan dalam waktu malam hari
+Total Night Calls | Total panggilan dalam waktu malam hari
 Total Night Charge | Total charge dalam panggilan malam hari
 Total Intl Minutes | Total International Call per menit
-Tota Intl Calls | Total International Call
+Total Intl Calls | Total International Call
 Total Intl Charge | Total charge dalam International Call
 Number Customer Service Call | Total panggilan kepada Customer Service
 ## 📂 Exploratory Data Analysis
@@ -108,7 +108,45 @@ Univariate Analysis adalah sebuah metode analisis statistik yang digunakan untuk
 2. Fitur **number_vmail_massages**, **total_intl_calls** dan **number_customer_sevice_calls** memiliki distribusi positively skewed yang dapat dilihat dengan ciri yaitu pada nilai **Mean** (rata-rata) lebih besar daripada nilai **Median** dan Nilai **Median** lebih besar daripada Nilai **Modus**.
 
 ### 3. Bivariative Analysis
-### 4. Multivariative Analysis
+Bivariative Analysis adalah metode statistik yang meneliti bagaimana dua hal yang berbeda saling berhubungan. Analisis bivariat bertujuan untuk menentukan apakah ada hubungan statistik antara dua variabel dan, jika demikian, seberapa kuat dan ke arah mana hubungan tersebut.
+<div align="center">
+  <img src="https://drive.google.com/uc?id=1jXKydwfbW-GEXE4pkOzcZ3xTKqnDOtJe" alt="Workflow">
+  <p>Gambar 4. Numerical Feature and Label.</p>
+</div>
 
+Berikut beberapa observasi dari grafik tentang distribusi fitur untuk pelanggan yang churn dan tidak churn:
+- **account_length** <br>
+  Distribusi fitur **account_length** terlihat bahwasanya tidak memiliki perbedaan yang signifikan antara pelanggan yang churn dan yang tidak churn. Distribusi **account_length** hampir identik untuk kedua kelompok. Dengan sedikit kemungkinan bahwa pelanggan churn cenderung memiliki total aktif masa berlangganan yang lebih sedikit, berkisar 75-100 bulan.
+- **number_vmail_messages**<br>
+   Distribusi fitur **number_vmail_messages** terihat bahwasanya pelanggan yang **tidak churn** cenderung memiliki lebih banyak **number_vmail_messages** dibandingkan dengan pelanggan yang **churn**. Distribusi pelanggan yang churn terlihat lebih terkonsentrasi di nilai yang lebih rendah. 
+- **total_day_minutes**<br>
+  Distribusi fitur **total_day_minutes** terlihat bahwasanya pelanggan yang **churn** cenderung memiliki **total_day_minutes** yang lebih tinggi. Ini menunjukkan bahwa pelanggan yang lebih banyak total menit pada panggilan di siang hari lebih memilih untuk **churn**.
+- **total_day_calls**<br>
+  Distribusi fitur **total_day_calls** hampir sama antara kedua kelompok, menunjukkan bahwa jumlah panggilan siang hari **tidak berpengaruh** signifikan terhadap pelanggan akan **churn**.
+- **total_day_charge**<br>
+  Distribusi fitur **total_day_charge** terlihat bahwasanya pelanggan yang **churn** cenderung memiliki **total_day_charge** yang lebih tinggi. Ini menunjukkan bahwa pelanggan yang menggunakan lebih banyak layanan di siang hari lebih memilih untuk **churn**.
+- **total_eve_minutes**<br>
+  Distribusi fitur **total_eve_minutes** terlihat bahwasanya pelanggan yang **churn** cenderung memiliki **total_eve_minutes** yang lebih tinggi. Ini menunjukkan bahwa pelanggan yang lebih banyak total menit pada panggilan di sore hari lebih memilih untuk **churn**.
+- **total_eve_calls**<br>
+  Distribusi fitur **total_eve_calls** terlihat bahwasanya tidak memiliki perbedaan yang signifikan antara pelanggan yang churn dan yang tidak churn. Distribusi **total_eve_calls** hampir identik untuk kedua kelompok.
+- **total_eve_charge**<br>
+  Distribusi fitur **total_eve_charge** terlihat bahwasanya pelanggan yang **churn** cenderung memiliki **total_eve_charge** yang lebih tinggi. Ini menunjukkan bahwa pelanggan yang menggunakan lebih banyak layanan di sore hari lebih memilih untuk **churn**.
+- **total_night_minutes**<br>
+  Distribusi fitur **total_night_minutes** untuk pelanggan churn dan tidak churn tidak memiiki perbedaan yang signifikan.
+- **total_night_calls**<br>
+  Distribusi fitur **total_night_calls** untuk pelanggan churn dan tidak churn tidak memiiki perbedaan yang signifikan.
+- **total_night_charge**<br>
+  Distribusi fitur **total_night_charge** untuk pelanggan churn dan tidak churn tidak memiiki perbedaan yang signifikan.
+- **total_intl_minutes**<br>
+  Distribusi fitur **total_intl_minutes** terlihat bahwasanya pelanggan yang **churn** cenderung memiliki**total_intl_minutes** yang lebih rendah dibandingkan dengan pelanggan yang tidak churn.
+- **total_intl_call**<br>
+  Distribusi fitur **total_intl_calls** terlihat bahwasanya pelanggan yang **churn** cenderung memiliki jumlah **total_intl_calls** yang lebih rendah.
+- **total_intl_charge**<br>
+  Distribusi fitur **total_intl_charge** terlihat bahwasanya pelanggan yang **churn** cenderung memiliki**total_intl_charge** yang lebih rendah dibandingkan dengan pelanggan yang tidak churn.
+- **number_customer_service_calls**<br>
+  Distribusi fitur **total_intl_charge** terlihat bahwasanya pelanggan yang **churn** cenderung memiliki lebih banyak **number_customer_service_calls**. Ini bisa menunjukkan bahwa pelanggan yang **tidak puas** atau memiliki masalah dan lebih cenderung untuk **churn**
+
+### 4. Multivariative Analysis
+Multivariate Analysis adalah sebuah pendekatan statistik yang digunakan untuk memahami hubungan antara dua atau lebih variabel dalam sebuah dataset. Berbeda dengan analisis univariat yang hanya fokus pada satu variabel tunggal, analisis multivariat memungkinkan pengguna untuk mengeksplorasi korelasi, pola, dan struktur yang kompleks antara beberapa variabel.
 
 
